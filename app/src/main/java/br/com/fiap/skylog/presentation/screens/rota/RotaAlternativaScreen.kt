@@ -170,3 +170,4 @@ fun RotaAlternativaScreen(navController: NavController) {
         }
     }
 }
+
