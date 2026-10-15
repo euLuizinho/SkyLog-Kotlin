@@ -17,9 +17,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import br.com.fiap.skylog.core.theme.*
 import br.com.fiap.skylog.presentation.navigation.NavRoutes
 import kotlinx.coroutines.launch
@@ -171,3 +173,10 @@ fun RotaAlternativaScreen(navController: NavController) {
     }
 }
 
+
+@Preview(showBackground = true, showSystemUi = true, name = "Tela de Rota Alternativa")
+@Composable
+fun RotaAlternativaScreenPreview() {
+    // Passamos um NavController "de mentira" apenas para o Preview funcionar
+    RotaAlternativaScreen(navController = rememberNavController())
+}

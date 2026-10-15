@@ -1,7 +1,9 @@
-# 🏗️ Documento de Arquitetura — SkyLog Motorista (Android)
+# 🏗️ Documento de Arquitetura — SkyLog Motorista (Android Nativo)
 
-> **Projeto:** SkyLog Motorista | **Tipo:** MVP Acadêmico (Global Solution FIAP 2026.1)
-> **Stack:** Kotlin · Jetpack Compose · Clean Architecture · MVVM
+> **Sistema:** SkyLog Motorista | **Módulo:** Mobile (Android / Kotlin)  
+> **Contexto:** Global Solution 2026.1 (FIAP — Tema: Space Connect)  
+> **Padrão:** Clean Architecture + MVVM + Injeção de Dependências com Koin  
+> **Módulo Web Complementar:** [SkyLog Gestor (Flutter)](https://github.com/euLuizinho/SkyLog-Flutter)
 
 Este documento descreve as decisões arquiteturais e o design técnico do aplicativo SkyLog Motorista. O objetivo é registrar formalmente o *porquê* de cada escolha tecnológica, servindo como referência de onboarding e avaliação técnica do projeto.
 
